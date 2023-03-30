@@ -6,7 +6,7 @@ class Animal{
     int weight;
     double speed;
     
-    double distance(int x){  //overload
+    double distance(int x){  
         double d= x*this.speed;  
         return d;  
     }
